@@ -1,3 +1,6 @@
+"""Create a class Student with instance attributes name and marks.
+Add an instance method is_passed() that returns True if marks > 40.
+Then create 2 student objects and print whether each has passed or failed."""
 class Student:
     def __init__(self,name,marks):
         self.name=name
